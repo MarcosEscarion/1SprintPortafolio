@@ -1,0 +1,59 @@
+.sobreMi {
+    margin: 0rem 8rem 0rem 8rem;
+    padding: 2rem;
+    box-shadow: .5em 0.5em 0.5em rgb(141, 135, 135);
+    background-color:#b49cef84;   
+    border-radius: 1rem;
+    color: #3C1D81;
+}
+
+.sobreMI__titulo {
+    text-align: center;
+    font-size: 2rem;
+    font-family: Montserrat;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.sobreMi__contenido {
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.6em;
+    text-align: justify;
+    color: #3C1D81;
+    padding: 0 2rem ;
+    
+    
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+    .sobreMi {
+        margin: 0rem 0rem 0rem 0rem;
+
+        padding: 1rem;
+        box-shadow: .5em 0.5em 0.5em rgb(141, 135, 135);
+
+         
+        
+        color: #3C1D81;
+    }
+    .sobreMI__titulo {
+        
+        font-size: 1rem;
+        font-family: Montserrat;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+    
+    .sobreMi__contenido {
+        font-family: Montserrat;
+        font-size: 0.6rem;
+        font-weight: 600;
+        line-height: 1.2rem;
+        text-align: justify;
+        color: #3C1D81;
+        padding: 0 1rem ;
+        
+        
+    }
+}
